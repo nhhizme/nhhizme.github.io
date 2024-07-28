@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nhhizme's URL Shortener</title>
+    <link rel="shortcut icon" href="https://nhhizme.vercel.app/resources/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://nhhizme.vercel.app/resources/githubpages/urlshortener.css">
+</head>
+<body>
+    
+    <div class="container">
+            <label for="url">Welcome to nhhizme's URL Shortener</label>
+            <p>Generate your short URL (based on TinyURL API)</p>
+            <input  type="text" id="url"  placeholder="Paste your URL here (example: http://zingmp3.vn)" >
+            <button onclick="shortURL()" id="btn">Shorten!</button>
+            <div id="result"></div>
+    </div>
+    
+
+
+    <script src="https://nhhizme.vercel.app/resources/githubpages/urlshortener.js"></script>
+
+</body>
+</html>
